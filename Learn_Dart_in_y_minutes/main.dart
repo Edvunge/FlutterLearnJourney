@@ -180,13 +180,13 @@ example14() {
   if (v) {
     print("Example14 value is true");
   }
-  v = null;
+ // v = null;
   try {
     if (v) {
       // Nunca seria executada
-    } else {
+    } //else {
       // Nunca seria executada
-    }
+    //}
   } catch (e) {
     print("Example14 null value causes an exception: '${e}'");
   }
